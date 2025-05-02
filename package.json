@@ -1,0 +1,22 @@
+{
+  "name": "notifications_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.7",
+    "dotenv": "^16.5.0",
+    "node-cron": "^3.0.3",
+    "pg": "^8.14.1",
+    "socket.io": "^4.8.1",
+    "ws": "^8.18.1"
+  }
+}
